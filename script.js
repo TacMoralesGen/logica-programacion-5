@@ -1,4 +1,4 @@
-
+var prompt = require('prompt-sync')();
 
 const guessNumber = () => {
   const secretNumber = Math.floor(Math.random() * 100) + 1;
